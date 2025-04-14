@@ -1,0 +1,19 @@
+# Игнорируем виртуальное окружение
+venv/
+
+# Игнорируем кэш Python
+__pycache__/
+*.py[cod]
+
+# Игнорируем файлы, созданные Poetry
+.python-version
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Игнорируем файлы, созданные IDE
+.idea/
+.vscode/
